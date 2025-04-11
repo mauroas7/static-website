@@ -1,58 +1,56 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Jowe Boy&apos;s Website</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
-	</head>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ACTIVIDAD KUBERNETES</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
 
-	<body>
-		<header>
-			<div class="row">
-				<div class="logo">
-					<img src="assets/logo-new.png" alt="oe_logo">
-				</div>
-				<ul class="main-nav">
-					<li class="active"><a href="">HOME</a></li>
-					<li><a href="">SERVICES</a></li>
-					<li><a href="">ABOUT</a></li>
-					<li><a href="">BLOG</a></li>
-					<li><a href="">CONTACT</a></li>
-					<li><a href="">FAQ</a></li>
-				</ul>
-			</div>
-			<div class="hero">
-				<h1>Ready for Action?</h1>
-				<div class="button">
-					<a href="" class="btn btn-one">Watch Video</a>
-					<a href="" class="btn btn-two">Explore More</a>
-				</div>
-			</div>
-		</header>
-		<section class="service grid-container">
-		</section>
-		<section class="about grid-container">
-		</section>
-		<section class="blog grid-container">
-		</section>
-		<section class="contact grid-container">
-			<div class="contact-form grid-item">
-				<div class="contact-section-header">
-					<h2>Get in touch with us!</h2>
-				</div>
-				<form class="form">
-					<input type="text" name="fullname" placeholder="Fullname">
-					<input type="email" name="email" placeholder="Email Address">
-					<input type="number" name="phonenumber" placeholder="Phone Number">
-					<textarea class="subject" name="subject" placeholder="Your subject here..."></textarea>
-					<input class="button" type="submit" value="Submit">
-				</form>
-			</div>
-			<div class="contact-form grid-item">
-			</div>
-		</section>
-		<section class="faq grid-container">
-		</section>
-	</body>
+<body>
+    <header>
+        <div class="row">
+            <div class="logo">
+                <img src="assets/itu-logo.jpg" alt="oe_logo">
+            </div>
+            <ul class="main-nav">
+                <li class="active"><a href="#inicio">INICIO</a></li>
+                <li><a href="#que-es">¿QUÉ ES KUBERNETES?</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#arquitectura">ARQUITECTURA</a></li>
+                <li><a href="#ejemplos">EJEMPLOS</a></li>                
+            </ul>
+        </div>
+        <div class="hero" id="inicio">
+            <h1>KUBERNETES</h1>
+            <div class="button">
+                <a href="https://www.youtube.com/results?search_query=kubernetes" target="_blank" class="btn btn-one">Ver Video</a>
+                <a href="#que-es" class="btn btn-two">Explorar más</a>
+            </div>
+        </div>
+    </header>
 
+    <section class="kubernetes grid-container" id="que-es">
+        <div>
+            <img src="assets/k8s-queson.png" alt="¿Qué es Kubernetes?">
+        </div>
+    </section>
+
+    <section class="service grid-container" id="servicios">
+        <div>
+            <img src="assets/k8s-servicios.png" alt="Servicios de Kubernetes">
+        </div>
+    </section>
+
+    <section class="arquitectura grid-container" id="arquitectura">
+        <div>
+            <img src="assets/k8s-arquitectura.png" alt="Arquitectura de Kubernetes">
+        </div>
+    </section>
+
+    <section class="ejemplos grid-container" id="ejemplos">
+        <div>
+            <img src="assets/k8s-ejemplos.png" alt="Ejemplos de Kubernetes">
+        </div>
+    </section>
+</body>
 </html>
